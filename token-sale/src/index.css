@@ -1,13 +1,45 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#background {
+  height: 8000px;
+  background-image: linear-gradient(135deg, rgb(222, 129, 25) 0%, rgb(222, 129, 25) 10%,rgb(201, 113, 31) 10%, rgb(201, 113, 31) 23%,rgb(181, 97, 38) 23%, rgb(181, 97, 38) 26%,rgb(160, 82, 44) 26%, rgb(160, 82, 44) 27%,rgb(139, 66, 50) 27%, rgb(139, 66, 50) 38%,rgb(119, 50, 57) 38%, rgb(119, 50, 57) 54%,rgb(98, 34, 63) 54%, rgb(98, 34, 63) 100%),linear-gradient(45deg, rgb(222, 129, 25) 0%, rgb(222, 129, 25) 10%,rgb(201, 113, 31) 10%, rgb(201, 113, 31) 23%,rgb(181, 97, 38) 23%, rgb(181, 97, 38) 26%,rgb(160, 82, 44) 26%, rgb(160, 82, 44) 27%,rgb(139, 66, 50) 27%, rgb(139, 66, 50) 38%,rgb(119, 50, 57) 38%, rgb(119, 50, 57) 54%,rgb(98, 34, 63) 54%, rgb(98, 34, 63) 100%),linear-gradient(0deg, rgb(222, 129, 25) 0%, rgb(222, 129, 25) 10%,rgb(201, 113, 31) 10%, rgb(201, 113, 31) 23%,rgb(181, 97, 38) 23%, rgb(181, 97, 38) 26%,rgb(160, 82, 44) 26%, rgb(160, 82, 44) 27%,rgb(139, 66, 50) 27%, rgb(139, 66, 50) 38%,rgb(119, 50, 57) 38%, rgb(119, 50, 57) 54%,rgb(98, 34, 63) 54%, rgb(98, 34, 63) 100%),linear-gradient(90deg, rgb(163, 190, 151),rgb(250, 185, 29)); background-blend-mode:overlay,overlay,overlay,normal;
+  font-family: "Russo One", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+ul li a {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+ul li a:hover {
+  color: #050505;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.logo{
+  margin-left: 20px;
+  top:10px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
