@@ -19,6 +19,7 @@ ReactDOM.render(
       href="https://cdn.jsdelivr.net/npm/semantic-ui@2/dist/semantic.min.css"
     />
     <link rel="stylesheet" href='/index.css'/>
+    <link rel="stylesheet" href="/logo.css" />
     <div id="background">
       <App />
     </div>

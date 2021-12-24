@@ -24,8 +24,8 @@ ul li a {
   font-size: 1.5rem;
   color: white;
   text-decoration: none;
-  margin-right: 20px;
-  top: 20px;
+  margin-right: 25px;
+  margin-top: 40px;
 }
 
 ul li a:hover {
@@ -75,4 +75,11 @@ h1,h2,h3,h4,h5,h6{
   top: 270px;
   left: 450px;
   font-size: 5rem;
+}
+
+#welcome-desc{
+  position: absolute;
+  top: 670px;
+  left: 540px;
+  font-size: 1.8rem;
 }

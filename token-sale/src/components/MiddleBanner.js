@@ -5,13 +5,12 @@ class MiddleBanner extends Component {
   render() {
     return (
       <div>
-        <link rel="stylesheet" href="/welcome.css" />
         <Image id="banner" src="/middlebanner.jpeg" />
-        <div id="main">
-          <div id="txt">
-            <h1>WELCOME TO MEGALLANIC.IO</h1>
-          </div>
-        </div>
+        <h1 id="welcome-text" >WELCOME TO MEGALLANIC.IO</h1>
+        <p id="welcome-desc">
+            A Community of Tech Enthusiasts.
+        </p>
+
       </div>
     );
   }
