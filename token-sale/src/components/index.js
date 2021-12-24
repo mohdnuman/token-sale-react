@@ -1,9 +1,9 @@
 import NavbarHeader from './NavbarHeader';
-import Features from './Features';
 import Card from './Card';
+import MiddleBanner from './MiddleBanner';
 
 export{
     NavbarHeader,
-    Features,
-    Card
+    Card,
+    MiddleBanner
 }

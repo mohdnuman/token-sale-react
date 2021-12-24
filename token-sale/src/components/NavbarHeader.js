@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import GradientButton from 'react-linear-gradient-button';
-import {Image} from 'semantic-ui-react';
 
 class NavbarHeader extends Component {
   render() {
@@ -13,21 +12,21 @@ class NavbarHeader extends Component {
         >
           EXPLORE COIN
         </GradientButton> */}
-        <Image src='/logo2.png' size='small' className='logo'/>
+        <h1 id="logo">magellanic</h1>
         <ul>
           <li>
             <a>
-              Features
+              Articles
             </a>
           </li>
           <li>
             <a>
-              Use Cases
+              Join Our DAO
             </a>
           </li>
           <li>
             <a>
-              Token Sales
+              Subscribe
             </a>
           </li>
           <li>

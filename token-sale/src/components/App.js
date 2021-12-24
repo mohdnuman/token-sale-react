@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Features, NavbarHeader } from ".";
+import {NavbarHeader,MiddleBanner } from ".";
 
 class App extends Component {
   render() {
@@ -8,7 +8,8 @@ class App extends Component {
        
         
         <NavbarHeader />
-        <Features/>
+        <MiddleBanner/>
+
         
       </div>
     );
