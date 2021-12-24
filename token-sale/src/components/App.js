@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {NavbarHeader,MiddleBanner } from ".";
+import {NavbarHeader,MiddleBanner,SecondBanner,ThirdBanner } from ".";
 
 class App extends Component {
   render() {
@@ -9,6 +9,8 @@ class App extends Component {
         
         <NavbarHeader />
         <MiddleBanner/>
+        <SecondBanner/>
+        <ThirdBanner/>
 
         
       </div>
