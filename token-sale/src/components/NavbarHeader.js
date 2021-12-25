@@ -5,13 +5,7 @@ class NavbarHeader extends Component {
   render() {
     return (
       <div className='navbar'>
-        {/* <GradientButton
-          gradient={["#4158D0", "#C850C0"]}
-          background={"#291672"}
-          color={"white"}
-        >
-          EXPLORE COIN
-        </GradientButton> */}
+        
         <h1 id="logo">magellanic</h1>
         <ul>
           <li>

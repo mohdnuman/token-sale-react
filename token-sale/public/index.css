@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
 body {
   margin: 0;
   font-family: "Russo One", sans-serif;
@@ -96,4 +98,19 @@ h1,h2,h3,h4,h5,h6{
   left:80px;
   height:700px;
   width: 90%;
+}
+
+#article-heading{
+  position: absolute;
+  top: 1150px;
+  left: 650px;
+  font-size: 5rem;
+}
+
+#article-button{
+  position: absolute;
+  top: 1500px;
+  left:640px;
+  /* border-radius: 50%; */
+  font-family: "Russo One", sans-serif;
 }
