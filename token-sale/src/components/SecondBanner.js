@@ -10,7 +10,9 @@ class SecondBanner extends Component {
         <h1 id="article-heading">
           Articles
         </h1>
-        
+        <p id="article-desc">
+          Get Latest Updates On Tech That Matters. 
+        </p>
         <GradientButton
           gradient={["#000000", "#615b5b","#d2d0d0"]}
           background={"white"}

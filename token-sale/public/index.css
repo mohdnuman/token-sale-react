@@ -68,8 +68,9 @@ h1,h2,h3,h4,h5,h6{
 #banner{
   top:70px;
   left:80px;
-  height:700px;
-  width: 90%;
+  height:100vh;
+  width: 90vw;
+  display: flex;
 }
 
 #welcome-text{
@@ -89,15 +90,15 @@ h1,h2,h3,h4,h5,h6{
 #second-banner{
   top:200px;
   left:80px;
-  height:700px;
-  width: 90%;
+  height:100vh;
+  width: 90vw;
 }
 
 #third-banner{
   top:300px;
   left:80px;
-  height:700px;
-  width: 90%;
+  height:100vh;
+  width: 90vw;
 }
 
 #article-heading{
@@ -113,4 +114,33 @@ h1,h2,h3,h4,h5,h6{
   left:640px;
   /* border-radius: 50%; */
   font-family: "Russo One", sans-serif;
+}
+
+#article-desc{
+  position: absolute;
+  top: 1320px;
+  left: 480px;
+  font-size: 1.8rem;
+}
+
+#dao-heading{
+  position: absolute;
+  top: 1850px;
+  left: 150px;
+  font-size: 5rem;
+}
+
+#dao-button{
+  position: absolute;
+  top: 2400px;
+  left:1000px;
+  /* border-radius: 50%; */
+  font-family: "Russo One", sans-serif;
+}
+
+#dao-desc{
+  position: absolute;
+  top: 2000px;
+  left: 150px;
+  font-size: 1.8rem;
 }
