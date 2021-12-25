@@ -25,11 +25,6 @@ class NavbarHeader extends Component {
           </li>
           <li>
             <a>
-              Our Mission
-            </a>
-          </li>
-          <li>
-            <a>
               Contact Us
             </a>
           </li>

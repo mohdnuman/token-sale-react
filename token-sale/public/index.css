@@ -9,7 +9,7 @@ body {
 }
 
 #background {
-  height: 4000px;
+  height: 2900px;
   background-image: repeating-radial-gradient(circle at center center, transparent 0px, transparent 11px,rgba(255,255,255,0.04) 11px, rgba(255,255,255,0.04) 19px,transparent 19px, transparent 29px,rgba(255,255,255,0.04) 29px, rgba(255,255,255,0.04) 33px),repeating-radial-gradient(circle at center center, rgb(0,0,0) 0px, rgb(0,0,0) 5px,rgb(0,0,0) 5px, rgb(0,0,0) 17px,rgb(0,0,0) 17px, rgb(0,0,0) 30px,rgb(0,0,0) 30px, rgb(0,0,0) 43px,rgb(0,0,0) 43px, rgb(0,0,0) 45px,rgb(0,0,0) 45px, rgb(0,0,0) 47px); background-size: 53px 53px;
   font-family: "Russo One", sans-serif;
 }
@@ -143,4 +143,25 @@ h1,h2,h3,h4,h5,h6{
   top: 2000px;
   left: 150px;
   font-size: 1.8rem;
+}
+
+#footer{
+  position: absolute;
+  top:2600px;
+  width: 100vw;
+  height:50vh;
+  background-color: black;
+}
+
+#footer-heading{
+  margin: 20px;
+}
+
+.icon{
+  margin: 5px;
+  margin-left: 40px;
+  display: inline-block;
+}
+span{
+  display: inline;
 }

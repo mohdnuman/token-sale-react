@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {NavbarHeader,MiddleBanner,SecondBanner,ThirdBanner } from ".";
+import {NavbarHeader,MiddleBanner,SecondBanner,ThirdBanner,Footer } from ".";
 
 class App extends Component {
   render() {
@@ -11,6 +11,7 @@ class App extends Component {
         <MiddleBanner/>
         <SecondBanner/>
         <ThirdBanner/>
+        <Footer/>
 
         
       </div>
