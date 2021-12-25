@@ -23,7 +23,7 @@ li {
 }
 
 ul li a {
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   color: white;
   text-decoration: none;
   margin-right: 25px;
@@ -53,7 +53,7 @@ h1,h2,h3,h4,h5,h6{
 
 #logo{
   margin: 20px 0px 0px 30px;
-  font-size: 3rem;
+  font-size: 3vw;
   color: white;
   border-bottom: 2px solid white;
 
@@ -68,7 +68,7 @@ h1,h2,h3,h4,h5,h6{
 #banner{
   top:70px;
   left:80px;
-  height:100vh;
+  height:auto;
   width: 90vw;
   display: flex;
 }
@@ -77,35 +77,35 @@ h1,h2,h3,h4,h5,h6{
   position: absolute;
   top: 270px;
   left: 450px;
-  font-size: 5rem;
+  font-size: 5vw;
 }
 
 #welcome-desc{
   position: absolute;
   top: 670px;
   left: 540px;
-  font-size: 1.8rem;
+  font-size: 1.8vw;
 }
 
 #second-banner{
   top:200px;
   left:80px;
-  height:100vh;
+  height:auto;
   width: 90vw;
 }
 
 #third-banner{
   top:300px;
   left:80px;
-  height:100vh;
+  height:auto;
   width: 90vw;
 }
 
 #article-heading{
   position: absolute;
-  top: 1150px;
+  top: 1080px;
   left: 650px;
-  font-size: 5rem;
+  font-size: 5vw;
 }
 
 #article-button{
@@ -118,21 +118,21 @@ h1,h2,h3,h4,h5,h6{
 
 #article-desc{
   position: absolute;
-  top: 1320px;
+  top: 1270px;
   left: 480px;
-  font-size: 1.8rem;
+  font-size: 1.8vw;
 }
 
 #dao-heading{
   position: absolute;
-  top: 1850px;
+  top: 1780px;
   left: 150px;
-  font-size: 5rem;
+  font-size: 5vw;
 }
 
 #dao-button{
   position: absolute;
-  top: 2400px;
+  top: 2300px;
   left:1000px;
   /* border-radius: 50%; */
   font-family: "Russo One", sans-serif;
@@ -140,9 +140,9 @@ h1,h2,h3,h4,h5,h6{
 
 #dao-desc{
   position: absolute;
-  top: 2000px;
+  top: 1900px;
   left: 150px;
-  font-size: 1.8rem;
+  font-size: 1.8vw;
 }
 
 #footer{
@@ -164,4 +164,18 @@ h1,h2,h3,h4,h5,h6{
 }
 span{
   display: inline;
+}
+
+#contact{
+  width: 95%;
+  margin-left: 20px;
+  /* border:2px solid white; */
+  border-bottom: 2px solid white;
+  display: inline-block;
+}
+
+#subscribe{
+  margin-left: 20px;
+  left: 720px;
+  height: 20px;
 }
